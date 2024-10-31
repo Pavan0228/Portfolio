@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    java,
+    aws,
+    express,
+    postman,
 } from "../assets";
 
 export const navLinks = [
@@ -46,13 +50,17 @@ const services = [
         icon: web,
     },
     {
-        title: "React Developer",
-        icon: web,
-    },
-    {
         title: "Backend Developer",
         icon: backend,
     },
+    {
+        title: "React Developer",
+        icon: mobile,
+    },
+    {
+        title: "DevOps Developer",
+        icon: creator,
+    }
 ];
 
 const technologies = [
@@ -99,6 +107,22 @@ const technologies = [
     {
         name: "docker",
         icon: docker,
+    },
+    {
+        name: "AWS",
+        icon: aws
+    },
+    {
+        name: "Express",
+        icon: express
+    },
+    {
+        name: "Postman",
+        icon: postman
+    },
+    {
+        name: "Java",
+        icon: java
     },
 ];
 
