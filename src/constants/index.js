@@ -13,15 +13,15 @@ import {
     mongodb,
     git,
     docker,
-    carrent,
-    jobit,
-    tripguide,
     java,
     aws,
     express,
     postman,
     rentkar,
     skill,
+    pennytrackerImage,
+    bAndB,
+    image,
 } from "../assets";
 
 export const navLinks = [
@@ -176,16 +176,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "PennyTracker",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "An automatic finance tracker that allows users to track their spending by scraping messages, providing insights into their financial habits and helping them manage their budgets effectively.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "firebase",
                 color: "green-text-gradient",
             },
             {
@@ -193,13 +193,14 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
+        image: pennytrackerImage,
+        source_code_link: "https://github.com/Pavan-0228/FinanceTracker",
+        project_link: "https://www.pennytracker.tech",
+    },    
     {
-        name: "Job IT",
+        name: "BrowseAndBuy",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A web application that allows seniors to list their previous year books and materials for juniors to purchase. It also features real-time chatting to facilitate communication between buyers and sellers.",
         tags: [
             {
                 name: "react",
@@ -210,24 +211,25 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
+        image: bAndB,
+        source_code_link: "https://github.com/Pavan-0228/BrowseAndBuy",
+        project_link: "https://browsenbuy.vercel.app/"
+    },    
     {
-        name: "Trip Guide",
+        name: "Image Search",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "An intuitive platform that allows users to search for and find any type of image quickly and easily, utilizing advanced search algorithms and a user-friendly interface.",
         tags: [
             {
-                name: "nextjs",
+                name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "restapi",
                 color: "green-text-gradient",
             },
             {
@@ -235,8 +237,9 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: image,
+        source_code_link: "https://github.com/Pavan-0228/Image-Search",
+        project_link: "https://pavan-0228.github.io/Image-Search",
     },
 ];
 

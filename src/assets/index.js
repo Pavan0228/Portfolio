@@ -26,9 +26,9 @@ import java from "./tech/java.png"
 import rentkar from "./company/rentkar.jpg";
 import skill from './company/skill.png'
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import image from "./image.png";
+import pennytrackerImage from "./pennytrackerImage.png";
+import bAndB from "./bAndB.png";
 
 export {
   logo,
@@ -49,9 +49,9 @@ export {
   redux,
   tailwind,
   typescript,
-  carrent,
-  jobit,
-  tripguide,
+  pennytrackerImage,
+  image,
+  bAndB,
   aws,
   express,
   postman,
