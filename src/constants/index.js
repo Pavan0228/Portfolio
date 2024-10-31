@@ -6,7 +6,6 @@ import {
     javascript,
     typescript,
     html,
-    css,
     reactjs,
     redux,
     tailwind,
@@ -17,7 +16,6 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
     java,
     aws,
     express,
@@ -64,10 +62,6 @@ const technologies = [
     {
         name: "HTML 5",
         icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
     },
     {
         name: "JavaScript",
@@ -121,10 +115,6 @@ const technologies = [
         name: "Java",
         icon: java
     },
-    {
-        name: "threejs",
-        icon: threejs
-    }
 ];
 
 const experiences = [
