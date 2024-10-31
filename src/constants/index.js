@@ -41,7 +41,7 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Full Stack Developer",
         icon: web,
     },
     {
@@ -191,7 +191,7 @@ const projects = [
     {
         name: "Image Search",
         description:
-            "An intuitive platform that allows users to search for and find any type of image quickly and easily, utilizing advanced search algorithms and a user-friendly interface.",
+            "An intuitive platform empowering users to quickly and effortlessly discover any image they need, featuring advanced search algorithms and a streamlined, user-friendly interface for easy visual discovery.",
         tags: [
             {
                 name: "react",

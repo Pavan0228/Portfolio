@@ -47,13 +47,14 @@ const Navbar = () => {
                         alt="logo"
                         className="w-9 h-9 rounded-full object-cover"
                     />
-                    <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-                        Pavan &nbsp;
-                        <span className="sm:block hidden">
-                            {" "}
-                            | Full Stack Developer
+                <div className="flex items-center">
+                    <p className="text-white text-lg font-bold cursor-pointer flex items-center">
+                        Pavan&nbsp;
+                        <span className="hidden sm:inline-block">
+                            | Web & Software Enthusiast
                         </span>
                     </p>
+                </div>
                 </Link>
 
                 <ul className="list-none hidden sm:flex flex-row gap-10">

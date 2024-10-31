@@ -10,10 +10,10 @@ import { fadeIn, textVariant } from "../Utils/motion";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt 
     className='xs:w-[250px] w-full'
-    tiltMaxAngleX={45}   // equivalent to max tilt in react-tilt
+    tiltMaxAngleX={45}
     tiltMaxAngleY={45}
-    scale={1.1}          // equivalent to scale in react-tilt
-    transitionSpeed={450} // equivalent to speed in react-tilt
+    scale={1.1}         
+    transitionSpeed={450} 
   >
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -43,16 +43,12 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+          I’m a dedicated full stack developer skilled in JavaScript, Node.js, and React, with experience in building robust backends and engaging user interfaces. I excel in creating efficient, scalable solutions that bring real-world impact. Let’s work together to turn your vision into reality!
       </motion.p>
-
+      
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
