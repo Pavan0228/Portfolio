@@ -13,12 +13,7 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -27,6 +22,8 @@ import {
     aws,
     express,
     postman,
+    rentkar,
+    skill,
 } from "../assets";
 
 export const navLinks = [
@@ -124,62 +121,41 @@ const technologies = [
         name: "Java",
         icon: java
     },
+    {
+        name: "threejs",
+        icon: threejs
+    }
 ];
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
         title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        company_name: "The Skill Guru Foundation",
+        icon: skill,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "Aug 2024 - Sept 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed a platform connecting students and mentors for real-time query resolution.",
+            "Enabled students to ask questions and receive solutions from mentors.",
+            "Integrated voice and video calling for direct communication.",
+            "Collaborated with teams to enhance user experience."
         ],
-    },
+    },    
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Full Stack Developer",
+        company_name: "Rentkar - Switch To Share",
+        icon: rentkar,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "Sept 2024 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Maintaining a web app for renting products like PS5s and laptops.",
+            "Streamlined the rental process for a better user experience.",
+            "Worked with cross-functional teams to improve functionality and design.",
+            "Engaged in code reviews to uphold code quality."
         ],
-    },
+    },    
 ];
+
 
 const testimonials = [
     {

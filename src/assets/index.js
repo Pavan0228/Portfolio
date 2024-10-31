@@ -9,7 +9,6 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -25,10 +24,9 @@ import express from "./tech/express.png";
 import postman from "./tech/Postman.png"
 import java from "./tech/java.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
+import rentkar from "./company/rentkar.jpg";
+import skill from './company/skill.png'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -45,7 +43,6 @@ export {
   close,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
@@ -56,15 +53,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
   aws,
   express,
   postman,
-  java
+  java,
+  rentkar,
+  skill
 };
